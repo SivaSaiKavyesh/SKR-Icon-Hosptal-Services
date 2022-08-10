@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="Landed">
+    <div class="Header">
+        <div class="Nav-Bar">
+            <div class="Brand"> 
+                <img src="../../assets/hospital-icon.png">
+                <p class="Brand-Name">SKR ICON <span  style=" font-size: 10px; color: #fae34e;"> Hospital.</span></p>
+            </div>
+            <!-----------------------------------For Computers------------------------>
+            <div class="Options">
+                <p>HOME</p>
+                <p>ONLINE OP</p>
+                <p>DOCTORS</p>
+                <p>CONTACT US</p>
+                <div class="Dropdown">
+                    <p>CAREERS <i class="fa fa-caret-down"></i></p>
+                    <div class="Dropdown-Content">
+                        <p>Staff</p>
+                        <p>Admin</p>
+                        <p>Reception</p>
+                    </div>
+                </div>
+            </div>
+            <!---------------------------For Mobiles------------------------------>
+            <div class="Mobile-Nav-Bar">
+                <i (click)="onNavBarClicked()" class="fa fa-bars"></i>
+                <div class="Mobile-Options" id="MobileOptions">
+                    <p (click)="onOption1Clicked()">Option1</p>
+                    <p (click)="onOption2Clicked()">Option2</p>
+                    <p (click)="onOption3Clicked()">Option3</p>
+                    <p (click)="onOption4Clicked()">Option4</p>
+                    <div class="Mobile-Dropdown">
+                        <p (click)="onDropDownClicked()">Careers <i class="fa fa-caret-down"></i></p>
+                        <div class="Mobile-Dropdown-Content" id="Mobile-Dropdown-Content">
+                            <p (click)="onDrop1Clicked()">Staff login </p>
+                            <p (click)="onDrop2Clicked()">Admin Login</p>
+                            <p (click)="onDrop3Clicked()">Owner Login</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="Main">
+            <img src="../../assets/KondalaRao.png">
+            <div class="text-division">
+                <h1><span style="color: #b0fcef;">Take Care of Your</span><br>Health Anytime<br>Anywhere.</h1>
+                <p class="small-text">Get Our instant digital services now which are avilable<br> always in our hospital's portal</p>
+                <div class="search-division">
+                    <input class="search-input" type="text" placeholder="Write your search...">
+                    <button>Find &#8620;</button>
+                </div>
+
+                <div class="statictics-division">
+                        <div class="column"><h3>5+</h3><p>Years of <br>Excellency</p></div>
+                        <div class="column"><h3>25K</h3><p>Cases<br>Completed</p></div>
+                        <div class="column"><h3>100%</h3><p>Client<br>Satisfaction</p></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="Features-Container">
+        <div class="Feature-Item"><img src="../../assets/doctoricon.png"><h3>Doctors</h3></div>
+        <div  class="Feature-Item"><img src="../../assets/hospital.png"><h3>Hospitals<br> </h3></div>
+        <div class="Feature-Item"><img src="../../assets/nurse.png"><h3>Nursing<br>Homes</h3></div>
+        <div class="Feature-Item"><img src="../../assets/doctoricon.png"><h3>Hospice<br>Care</h3></div>
+    
+        <div class="Feature-Item"><img src="../../assets/rehabilitation.png"><h3>Rehab</h3></div>
+        <div class="Feature-Item"><img src="../../assets/dialysis.png"><h3>Dialysis<br>Facilities</h3></div>
+        <div class="Feature-Item"><img src="../../assets/schedule.png"><h3>Health<br>Schedule</h3></div>
+        <div class="Feature-Item"><img src="../../assets/ambulance.png"><h3>Ambulance<br>Call</h3></div>
+
+    </div>
+
+
+</div>
