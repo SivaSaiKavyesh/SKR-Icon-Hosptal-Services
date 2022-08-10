@@ -306,6 +306,7 @@ opacity: 0.5;
    }
    .text-division{
     margin-top: 15px;
+    margin-right: 0;
     height: fit-content;
    }
    .text-division h1{
